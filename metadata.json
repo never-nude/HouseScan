@@ -1,0 +1,84 @@
+{
+  "artifacts" : [
+    {
+      "createdAt" : "2026-05-01T18:27:43Z",
+      "id" : "922E10BC-CDB2-47B2-8A6B-6D60064A4D4C",
+      "kind" : "captureDirectory",
+      "note" : "Local LiDAR Mesh capture directory.",
+      "relativePath" : "Artifacts\/0B7163FD-6D0B-44DA-9646-03604A66D922\/Scans\/ED5964C5-B609-4F42-9064-AF10CA773C79\/CaptureImages"
+    },
+    {
+      "createdAt" : "2026-05-01T18:27:43Z",
+      "id" : "98C635A0-BAA3-49C6-A4CC-8782AD933DD5",
+      "kind" : "metadata",
+      "note" : "Exterior scan metadata JSON.",
+      "relativePath" : "Artifacts\/0B7163FD-6D0B-44DA-9646-03604A66D922\/Scans\/ED5964C5-B609-4F42-9064-AF10CA773C79\/metadata.json"
+    },
+    {
+      "createdAt" : "2026-05-01T18:27:43Z",
+      "id" : "C064C5CD-AA1B-4843-9D24-70FD8913F559",
+      "kind" : "reconstructionDirectory",
+      "note" : "Local LiDAR mesh export artifacts.",
+      "relativePath" : "Artifacts\/0B7163FD-6D0B-44DA-9646-03604A66D922\/Scans\/ED5964C5-B609-4F42-9064-AF10CA773C79\/Reconstruction"
+    },
+    {
+      "createdAt" : "2026-05-01T18:27:43Z",
+      "id" : "2C343AF6-2D74-4E8B-8EC6-660162D74DA2",
+      "kind" : "meshSummary",
+      "note" : "LiDAR mesh export summary JSON.",
+      "relativePath" : "Artifacts\/0B7163FD-6D0B-44DA-9646-03604A66D922\/Scans\/ED5964C5-B609-4F42-9064-AF10CA773C79\/Reconstruction\/lidar-mesh-summary.json"
+    },
+    {
+      "createdAt" : "2026-05-01T18:27:43Z",
+      "id" : "6A1D7164-C875-4946-A6C5-9011EF5E54F2",
+      "kind" : "objModel",
+      "note" : "LiDAR rough geometry OBJ export.",
+      "relativePath" : "Artifacts\/0B7163FD-6D0B-44DA-9646-03604A66D922\/Scans\/ED5964C5-B609-4F42-9064-AF10CA773C79\/Reconstruction\/lidar-mesh.obj"
+    },
+    {
+      "createdAt" : "2026-05-01T18:27:43Z",
+      "id" : "81FEF4CD-ECCB-44B3-828D-F26928B13705",
+      "kind" : "materialLibrary",
+      "note" : "LiDAR OBJ material library.",
+      "relativePath" : "Artifacts\/0B7163FD-6D0B-44DA-9646-03604A66D922\/Scans\/ED5964C5-B609-4F42-9064-AF10CA773C79\/Reconstruction\/lidar-mesh.mtl"
+    },
+    {
+      "createdAt" : "2026-05-01T18:27:43Z",
+      "id" : "ADA29E55-006D-4201-A3D7-ADF945FAAD61",
+      "kind" : "fieldTestLog",
+      "note" : "Local field-test diagnostics JSON.",
+      "relativePath" : "Artifacts\/0B7163FD-6D0B-44DA-9646-03604A66D922\/Scans\/ED5964C5-B609-4F42-9064-AF10CA773C79\/field-test-log.json"
+    }
+  ],
+  "captureDirectoryPath" : "Artifacts\/0B7163FD-6D0B-44DA-9646-03604A66D922\/Scans\/ED5964C5-B609-4F42-9064-AF10CA773C79\/CaptureImages",
+  "captureMode" : "lidarMesh",
+  "createdAt" : "2026-05-01T18:23:21Z",
+  "exportStatus" : "completed",
+  "fieldTestLog" : {
+    "captureMode" : "lidarMesh",
+    "elapsedSeconds" : 262.46229898929596,
+    "feedbackMessagesSeen" : [
+
+    ],
+    "finalTrackingMessage" : "Mesh OBJ exported. Save this scan.",
+    "reconstructionMessage" : "OBJ exported",
+    "saveThisScanTapped" : true,
+    "segment" : "Back",
+    "shotCount" : 267,
+    "startTime" : "2026-05-01T18:23:21Z",
+    "stopTime" : "2026-05-01T18:27:43Z"
+  },
+  "id" : "ED5964C5-B609-4F42-9064-AF10CA773C79",
+  "lidarMeshExportStatus" : "completed",
+  "lidarMeshMTLPath" : "Artifacts\/0B7163FD-6D0B-44DA-9646-03604A66D922\/Scans\/ED5964C5-B609-4F42-9064-AF10CA773C79\/Reconstruction\/lidar-mesh.mtl",
+  "lidarMeshOBJPath" : "Artifacts\/0B7163FD-6D0B-44DA-9646-03604A66D922\/Scans\/ED5964C5-B609-4F42-9064-AF10CA773C79\/Reconstruction\/lidar-mesh.obj",
+  "lidarMeshSummaryPath" : "Artifacts\/0B7163FD-6D0B-44DA-9646-03604A66D922\/Scans\/ED5964C5-B609-4F42-9064-AF10CA773C79\/Reconstruction\/lidar-mesh-summary.json",
+  "meshAnchorCount" : 267,
+  "meshFaceCount" : 1346541,
+  "meshVertexCount" : 760682,
+  "notes" : "",
+  "projectID" : "0B7163FD-6D0B-44DA-9646-03604A66D922",
+  "segmentName" : "Back",
+  "status" : "captured",
+  "updatedAt" : "2026-05-01T18:27:43Z"
+}

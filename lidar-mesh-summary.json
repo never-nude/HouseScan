@@ -1,0 +1,10 @@
+{
+  "createdAt" : "2026-05-01T18:27:43Z",
+  "exportStatus" : "completed",
+  "meshAnchorCount" : 267,
+  "meshFaceCount" : 1346541,
+  "meshVertexCount" : 760682,
+  "mtlPath" : "Artifacts\/0B7163FD-6D0B-44DA-9646-03604A66D922\/Scans\/ED5964C5-B609-4F42-9064-AF10CA773C79\/Reconstruction\/lidar-mesh.mtl",
+  "objPath" : "Artifacts\/0B7163FD-6D0B-44DA-9646-03604A66D922\/Scans\/ED5964C5-B609-4F42-9064-AF10CA773C79\/Reconstruction\/lidar-mesh.obj",
+  "status" : "completed"
+}

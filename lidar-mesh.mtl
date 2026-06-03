@@ -1,0 +1,6 @@
+# HouseScan LiDAR rough mesh material
+newmtl lidar_mesh
+Kd 0.72 0.74 0.76
+Ka 0.20 0.20 0.20
+Ks 0.05 0.05 0.05
+d 1.0
