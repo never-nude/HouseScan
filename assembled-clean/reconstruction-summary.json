@@ -1,0 +1,15 @@
+{
+  "sourceZip": "/Users/michael/Downloads/House scan test 1.zip",
+  "sourceZipSHA256": "44575c72e7b1f0cbfa7dc79365e5c27280d492423ee5a3f9eee3af19bce0238a",
+  "scanID": "8CAB307F-3C72-46D4-A497-085C2286FF1A",
+  "segment": "Front",
+  "captureMode": "photoCapture",
+  "sourceImageCount": 135,
+  "sourceImageResolution": "4032x3024",
+  "photogrammetryDetail": "reduced",
+  "outputUSDZ": "front-photo-reconstruction.usdz",
+  "outputUSDZBytes": 16413346,
+  "outputUSDZSHA256": "8825c7932e93b75e459f566b854dda9061cc58fbb0e27c1ae133ea0097cbeef2",
+  "status": "completed",
+  "notes": "Apple RealityKit PhotogrammetrySession produced a textured USDZ. Some source samples were skipped by the solver during final processing."
+}

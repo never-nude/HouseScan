@@ -1,18 +1,39 @@
 # HouseScan
 
-HouseScan LiDAR mesh export for the back exterior segment of a home.
+Recovered HouseScan exterior-home 3D scan exports from Google Drive.
 
-This repository contains the recovered Google Drive export for a rough LiDAR house scan. The mesh is in meters and can be opened in Blender, MeshLab, or another OBJ viewer.
+This repository contains two recovered scan artifacts:
+
+- A textured USDZ photogrammetry reconstruction for the front exterior segment.
+- A rough LiDAR OBJ mesh export for the back exterior segment.
+
+The USDZ can be opened with Apple's Preview/Quick Look, Reality Composer Pro, Blender with USD support, or another USDZ viewer. The OBJ can be opened in Blender, MeshLab, or another OBJ viewer.
 
 ## Files
 
-- `Back-LiDAR-HouseScan.obj` - rough LiDAR geometry OBJ export.
+- `assembled-clean/Kushman House.usdz` - textured front exterior photogrammetry reconstruction.
+- `assembled-clean/reconstruction-summary.json` - USDZ reconstruction summary and checksum.
+- `assembled-clean/source-metadata.json` - source photo-capture metadata.
+- `assembled-clean/source-field-test-log.json` - source photo-capture field-test log.
+- `Back-LiDAR-HouseScan.obj` - rough back exterior LiDAR geometry OBJ export.
 - `lidar-mesh.mtl` - material file referenced by the OBJ.
-- `lidar-mesh-summary.json` - mesh export counts and source artifact paths.
-- `metadata.json` - capture/export metadata from the field test.
-- `README.txt` - original README recovered from Google Drive.
+- `lidar-mesh-summary.json` - LiDAR mesh export counts and source artifact paths.
+- `metadata.json` - LiDAR capture/export metadata from the field test.
+- `README.txt` - original LiDAR README recovered from Google Drive.
 
-## Mesh Stats
+## Front Photogrammetry Scan
+
+- Segment: Front
+- Capture mode: Photo Capture
+- Source images: 135
+- Source image resolution: 4032x3024
+- Photogrammetry detail: reduced
+- Output USDZ size: 16,413,346 bytes
+- Output USDZ SHA-256: `8825c7932e93b75e459f566b854dda9061cc58fbb0e27c1ae133ea0097cbeef2`
+- Capture start: 2026-05-01 at 19:14:07Z
+- Capture stop: 2026-05-01 at 19:20:53Z
+
+## Back LiDAR Mesh
 
 - Segment: Back
 - Capture mode: LiDAR House Scan

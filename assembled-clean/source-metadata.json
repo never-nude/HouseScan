@@ -1,0 +1,55 @@
+{
+  "artifacts" : [
+    {
+      "createdAt" : "2026-05-01T19:20:53Z",
+      "id" : "25B62B0A-268F-4DCE-A265-DF2CF61D4874",
+      "kind" : "captureDirectory",
+      "note" : "Local Photo Capture image directory.",
+      "relativePath" : "Artifacts\/345DE12A-F9BB-41DA-8264-291DF807244E\/Scans\/8CAB307F-3C72-46D4-A497-085C2286FF1A\/CaptureImages"
+    },
+    {
+      "createdAt" : "2026-05-01T19:20:53Z",
+      "id" : "DE7F6564-4558-4E8F-828B-EF515F9ACD93",
+      "kind" : "metadata",
+      "note" : "Exterior scan metadata JSON.",
+      "relativePath" : "Artifacts\/345DE12A-F9BB-41DA-8264-291DF807244E\/Scans\/8CAB307F-3C72-46D4-A497-085C2286FF1A\/metadata.json"
+    },
+    {
+      "createdAt" : "2026-05-01T19:20:53Z",
+      "id" : "B7A6A599-09A3-48B5-A027-EC206548A868",
+      "kind" : "reconstructionDirectory",
+      "note" : "Local photogrammetry output directory.",
+      "relativePath" : "Artifacts\/345DE12A-F9BB-41DA-8264-291DF807244E\/Scans\/8CAB307F-3C72-46D4-A497-085C2286FF1A\/Reconstruction"
+    },
+    {
+      "createdAt" : "2026-05-01T19:20:53Z",
+      "id" : "8C7D865B-A646-4BC5-858C-1DC657D5232E",
+      "kind" : "fieldTestLog",
+      "note" : "Local field-test diagnostics JSON.",
+      "relativePath" : "Artifacts\/345DE12A-F9BB-41DA-8264-291DF807244E\/Scans\/8CAB307F-3C72-46D4-A497-085C2286FF1A\/field-test-log.json"
+    }
+  ],
+  "captureDirectoryPath" : "Artifacts\/345DE12A-F9BB-41DA-8264-291DF807244E\/Scans\/8CAB307F-3C72-46D4-A497-085C2286FF1A\/CaptureImages",
+  "captureMode" : "photoCapture",
+  "capturedImageCount" : 135,
+  "createdAt" : "2026-05-01T19:14:07Z",
+  "fieldTestLog" : {
+    "captureMode" : "photoCapture",
+    "elapsedSeconds" : 405.95299100875854,
+    "feedbackMessagesSeen" : [
+
+    ],
+    "finalTrackingMessage" : "135 photos captured",
+    "saveThisScanTapped" : true,
+    "segment" : "Front",
+    "shotCount" : 135,
+    "startTime" : "2026-05-01T19:14:07Z",
+    "stopTime" : "2026-05-01T19:20:53Z"
+  },
+  "id" : "8CAB307F-3C72-46D4-A497-085C2286FF1A",
+  "notes" : "",
+  "projectID" : "345DE12A-F9BB-41DA-8264-291DF807244E",
+  "segmentName" : "Front",
+  "status" : "captured",
+  "updatedAt" : "2026-05-01T19:21:10Z"
+}
